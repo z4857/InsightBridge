@@ -1,13 +1,15 @@
-# InsightBridge – Chrome Built-in AI Challenge 2025 Submission
+# InsightBridge – Your personal multilingual AI stock analyst
 
 ## Overview
-InsightBridge helps investors quickly decide whether a news article or research paper affects their portfolio.  
-Using Chrome’s built-in AI models (Summarizer, Prompt, Rewriter), the extension:
-1. Summarizes the article in 2 sentences.
-2. Judges relevance to selected stocks.
-3. Simplifies the explanation for non-experts.
+InsightBridge helps investors quickly decide whether a news article or research paper affects their stock.  
+Using Chrome’s built-in AI models and Yahoo API, the extension:
+1. Retrieves the company name from stock stick
+2. Summarizes the article in 5 sentences.
+3. Judges relevance to selected stocks.
+4. Simplifies the explanation for non-experts.
+5. Wraps up everything in a short paragraph for future use
 
-All analysis runs locally in Chrome — no data leaves your browser.
+All analysis runs locally in Chrome — no personal API key required.
 
 ---
 
@@ -19,18 +21,40 @@ All analysis runs locally in Chrome — no data leaves your browser.
 
 ---
 
-## APIs Used
-- `ai.summarizer.summarize()` – compresses text to 2-sentence summary.
-- `ai.prompt.prompt()` – classifies relevance to user portfolio.
-- `ai.rewriter.rewrite()` – simplifies the explanation for readability.
+## Chrome Built-in APIs Used (to be enabled in chrome://flags/)
+- `Prompt API for Gemini Nano.
+- `Prompt API for Gemini Nano with Multimodal Input.
+- `Summarization API for Gemini Nano.
 
 ---
 
-## Example Output
-**Input:** "Tesla announced expansion of its Gigafactory Shanghai to double battery output..."
-**Stocks:** TSLA, NVDA
+## Use Example 
+**Stock sticker:** TSLA
+**Output language:** "English"
 
 **Output:**
-✅ Relevant
-Summary: Tesla will expand its Gigafactory Shanghai to double production. The move strengthens its supply chain for EV batteries.
-Explanation: This development directly impacts TSLA as it increases production capacity. It may also influence suppliers like NVDA indirectly through AI chip demand. For other stocks, the impact is minimal.
+Tesla, Inc. (TSLA) - Trade Deal Analysis
+Here's an analysis of how the US-China trade deal framework impacts Tesla, Inc. (TSLA):
+
+---
+
+1. Identification:
+
+Country/Region: Tesla operates globally with a significant presence in the US, Europe, and Asia. However, it heavily relies on both the US and Chinese markets.
+Main Business Sector: Tesla is an automotive and clean energy company, primarily focused on electric vehicles, battery energy storage, and solar products.
+
+2. Relevance:
+
+The webpage content is highly relevant to TSLA. The US-China trade relationship significantly impacts Tesla due to its manufacturing footprint, supply chain dependencies, and market access in both countries.
+
+3. Explanation:
+
+Trade deal framework reduces uncertainty in global trade environment.
+Delayed tariffs benefit Tesla's supply chain costs.
+Resumption of soybean purchases eases broader trade tensions.
+Potential for smoother Chinese market access for Tesla.
+TikTok sale plan indirectly affects broader tech/consumer sentiment.
+
+4. Summary:
+
+The US and China have reached a trade deal framework, delaying tariffs and addressing concerns around mineral exports and TikTok. This development is highly relevant to Tesla, which relies on both markets for manufacturing, supply chains, and sales. Reduced tariff risk can positively impact Tesla's costs and profitability, while smoother trade relations may unlock further growth opportunities in China, a crucial market. The broader easing of trade tensions reduces overall market uncertainty, which is generally favorable for investor sentiment toward companies like Tesla. This agreement could lead to increased confidence in Tesla's long-term prospects, particularly within the Asian market.
