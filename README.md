@@ -29,8 +29,9 @@ All analysis runs locally in Chrome — no personal API key required.
 ---
 
 ## Use Example 
-**Stock sticker:** TSLA
-**Output language:** "English"
+**Input**
+- '**Stock sticker:** TSLA
+- '**Output language:** "English"
 
 **Output:**
 Tesla, Inc. (TSLA) - Trade Deal Analysis
@@ -58,3 +59,4 @@ TikTok sale plan indirectly affects broader tech/consumer sentiment.
 4. Summary:
 
 The US and China have reached a trade deal framework, delaying tariffs and addressing concerns around mineral exports and TikTok. This development is highly relevant to Tesla, which relies on both markets for manufacturing, supply chains, and sales. Reduced tariff risk can positively impact Tesla's costs and profitability, while smoother trade relations may unlock further growth opportunities in China, a crucial market. The broader easing of trade tensions reduces overall market uncertainty, which is generally favorable for investor sentiment toward companies like Tesla. This agreement could lead to increased confidence in Tesla's long-term prospects, particularly within the Asian market.
+
