@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "InsightBridge",
+  "version": "2.0",
+  "description": "Your personal financial analyst.",
+  "permissions": [
+    "sidePanel",
+    "scripting",
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "InsightBridge - AI Stock Analyst"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
